@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>com.wisea</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1</version>
+	</parent>
+	
+	<groupId>com.njmz.wx.web</groupId>
+	<artifactId>wx-web</artifactId>
+	<name>wx-web</name>
+	<packaging>war</packaging>
+	
+	<dependencies>
+		<dependency>
+			<groupId>com.njmz.wx.service</groupId>
+			<artifactId>wx-service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<finalName>wx-web</finalName>
+	</build>
+</project>
